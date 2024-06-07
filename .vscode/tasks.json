@@ -11,20 +11,20 @@
                 "PLATFORM=PLATFORM_DESKTOP",
                 "BUILD_MODE=DEBUG",
                 "PROJECT_NAME=dungy",
-                "OBJS=main.c mapgenerator.c objects.c gui.c resources.c"
+                "OBJS=src/main.c src/mapgenerator.c src/objects.c src/gui.c src/resources.c"
             ],
             "windows": {
                 "command": "C:/raylib/w64devkit/bin/mingw32-make.exe",
                 "args": [
                     "RAYLIB_PATH=C:/raylib/raylib",
                     "PROJECT_NAME=dungy",
-                    "OBJS=main.c mapgenerator.c objects.c gui.c resources.c",
+                    "OBJS=src/main.c src/mapgenerator.c src/objects.c src/gui.c src/resources.c",
                     "BUILD_MODE=DEBUG"
                 ],
             },
             "osx": {
                 "args": [
-                    "RAYLIB_PATH=<path_to_raylib>/raylib",
+                    "RAYLIB_PATH=C:/raylib/raylib",
                     "PROJECT_NAME=${fileBasenameNoExtension}",
                     "OBJS=${fileBasenameNoExtension}.c",
                     "BUILD_MODE=DEBUG"

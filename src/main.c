@@ -19,7 +19,7 @@ int main (void){
 
     // Abrimos o arquivo que contém dados do mapa
     FILE *mapa = fopen("./resources/map.txt", "r");
-    if (mapa == NULL) return 1;
+    // if (mapa == NULL) return 1;
 
     // Inicializamos a janela e com o contexto de OpenGL carregamos as texturas
     InitWindow(map_width, map_height, "Dungy");

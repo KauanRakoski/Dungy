@@ -1,5 +1,4 @@
 dungy.exe
-.vscode/
 output/
 Makefile.android
 main.code-workspace
